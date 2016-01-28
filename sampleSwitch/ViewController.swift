@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func switchChanged(sender: UISwitch) {
+        //print(sender.on)
+        if sender.on == true{
+            print("スイッチON")
+        }else{
+            print("スイッチOFF")
+        }
+    }
 
 }
 
